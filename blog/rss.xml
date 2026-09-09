@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>OCI Talk² Blog</title>
+        <link>https://oci-talk2.github.io/blog</link>
+        <description>OCI Talk² Blog</description>
+        <lastBuildDate>Fri, 28 Aug 2026 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[OKE 가상 노드 파일 스토리지 기반 영구 볼륨 지원]]></title>
+            <link>https://oci-talk2.github.io/blog/2026/08/28/oke-virtual-nodes-persistent-storage-support.</link>
+            <guid>https://oci-talk2.github.io/blog/2026/08/28/oke-virtual-nodes-persistent-storage-support.</guid>
+            <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[OKE 가상 노드 파일 스토리지 기반 영구 볼륨 지원 — OKE에서 가상 노드에 대해 파일 스토리지 서비스 기반 영구 볼륨을 프로비저닝할 수 있게 되었습니다. 기존에 관리형 노드와 자체 관리형 노드에서 지원하던 기능을 가상 노드에서도 활용할 수 있습니다. 자세한 설정 방법은 Provisioning PVCs on the File Storage Service에서 확인할 수 있습니다.]]></description>
+            <content:encoded><![CDATA[<p><strong><a href="https://docs.oracle.com/iaas/releasenotes/conteng/conteng_virtual-nodes-persistent-storage-support.htm" target="_blank" rel="noopener noreferrer" class="">OKE 가상 노드 파일 스토리지 기반 영구 볼륨 지원</a></strong> — OKE에서 가상 노드에 대해 파일 스토리지 서비스 기반 영구 볼륨을 프로비저닝할 수 있게 되었습니다. 기존에 관리형 노드와 자체 관리형 노드에서 지원하던 기능을 가상 노드에서도 활용할 수 있습니다. 자세한 설정 방법은 <a href="https://docs.oracle.com/en-us/iaas/Content/ContEng/Tasks/contengcreatingpersistentvolumeclaim_Provisioning_PVCs_on_FSS.htm" target="_blank" rel="noopener noreferrer" class="">Provisioning PVCs on the File Storage Service</a>에서 확인할 수 있습니다.</p>
+<p>(작성 예시) ...</p>
+<!-- -->
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="작성-예시-">(작성 예시) ...<a href="https://oci-talk2.github.io/blog/2026/08/28/oke-virtual-nodes-persistent-storage-support.#%EC%9E%91%EC%84%B1-%EC%98%88%EC%8B%9C-" class="hash-link" aria-label="Direct link to (작성 예시) ..." title="Direct link to (작성 예시) ..." translate="no">​</a></h2>]]></content:encoded>
+            <category>relese-note</category>
+            <category>oke</category>
+            <category>virtual-nodes</category>
+        </item>
+    </channel>
+</rss>

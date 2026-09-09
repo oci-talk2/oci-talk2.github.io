@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">OCI 업데이트 개요 일러스트</title>
+  <desc id="desc">텍스트 없이 클라우드, 업데이트 카드, 차트, 지구본과 식물 요소로 OCI 주요 업데이트를 한눈에 보는 분위기를 표현한 심플한 벡터 일러스트</desc>
+
+  <defs>
+    <linearGradient id="bgBlob" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eef7ff"/>
+      <stop offset="100%" stop-color="#dceef7"/>
+    </linearGradient>
+    <linearGradient id="cloudStroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6cc7a4"/>
+      <stop offset="100%" stop-color="#53a982"/>
+    </linearGradient>
+    <linearGradient id="cardBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9bbaf4"/>
+      <stop offset="100%" stop-color="#7f9fe0"/>
+    </linearGradient>
+    <linearGradient id="cardGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d7f0e4"/>
+      <stop offset="100%" stop-color="#b6dec9"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#8ea1b3" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="800" fill="#ffffff"/>
+  <path d="M188 446C120 360 177 270 280 224C390 176 492 85 633 90C788 95 827 178 884 257C932 322 1058 291 1097 392C1136 493 1070 594 955 610C824 627 734 660 615 632C483 601 413 523 319 524C256 524 216 482 188 446Z"
+        fill="url(#bgBlob)"/>
+
+  <!-- small clouds -->
+  <g fill="#dcecff">
+    <path d="M149 171c0-22 17-39 38-39 17 0 31 10 36 25 6-5 14-8 23-8 18 0 33 14 33 31H149z"/>
+    <path d="M919 188c0-18 14-32 32-32 15 0 27 9 31 22 5-4 12-7 19-7 16 0 29 12 29 28H919z"/>
+  </g>
+
+  <!-- cloud outline -->
+  <path d="M474 258
+           C474 217 507 184 548 184
+           C562 127 611 92 668 92
+           C731 92 782 134 792 194
+           C805 187 821 183 836 183
+           C883 183 921 221 921 268
+           C921 315 884 352 837 352
+           L560 352
+           C512 352 474 315 474 268Z"
+        fill="#ffffff"
+        stroke="url(#cloudStroke)"
+        stroke-width="22"
+        stroke-linejoin="round"/>
+
+  <!-- orbital dotted paths -->
+  <path d="M346 335C398 258 465 228 523 227" fill="none" stroke="#94a5bd" stroke-width="5" stroke-dasharray="11 13" stroke-linecap="round"/>
+  <path d="M804 273C916 276 949 333 950 398" fill="none" stroke="#94a5bd" stroke-width="5" stroke-dasharray="11 13" stroke-linecap="round"/>
+  <path d="M906 600C965 606 1037 594 1094 557C1127 536 1140 510 1110 494" fill="none" stroke="#94a5bd" stroke-width="5" stroke-dasharray="11 13" stroke-linecap="round"/>
+
+  <!-- left card -->
+  <g transform="translate(285 380) rotate(-8)" filter="url(#shadow)">
+    <rect x="0" y="0" width="185" height="190" rx="14" fill="#ffffff"/>
+    <rect x="16" y="18" width="96" height="72" rx="8" fill="url(#cardBlue)"/>
+    <path d="M43 65c0-12 10-22 22-22 10 0 18 6 21 15 3-2 7-4 11-4 10 0 18 8 18 18H43z" fill="#ffffff"/>
+    <rect x="126" y="24" width="34" height="9" rx="4.5" fill="#d5dde5"/>
+    <rect x="126" y="43" width="40" height="9" rx="4.5" fill="#d5dde5"/>
+    <rect x="126" y="62" width="35" height="9" rx="4.5" fill="#d5dde5"/>
+    <rect x="22" y="112" width="24" height="24" rx="5" fill="#acc5f5"/>
+    <rect x="58" y="116" width="91" height="9" rx="4.5" fill="#d5dde5"/>
+    <rect x="22" y="146" width="24" height="24" rx="5" fill="#acc5f5"/>
+    <rect x="58" y="150" width="75" height="9" rx="4.5" fill="#d5dde5"/>
+  </g>
+
+  <!-- center card -->
+  <g transform="translate(483 355) rotate(5)" filter="url(#shadow)">
+    <rect x="0" y="0" width="310" height="240" rx="16" fill="#ffffff"/>
+    <rect x="20" y="22" width="270" height="120" rx="10" fill="#e6f1f5"/>
+    <circle cx="232" cy="46" r="15" fill="#b7dcc8"/>
+    <path d="M42 132L115 62L173 118L213 80L279 142H42Z" fill="#65b69b"/>
+    <path d="M42 132L115 62L165 112L135 142H42Z" fill="#4ea98a"/>
+    <rect x="21" y="160" width="265" height="10" rx="5" fill="#d6dde4"/>
+    <rect x="21" y="182" width="216" height="10" rx="5" fill="#d6dde4"/>
+    <rect x="21" y="205" width="44" height="34" rx="7" fill="#cce8dc"/>
+    <rect x="82" y="210" width="110" height="10" rx="5" fill="#d6dde4"/>
+    <rect x="82" y="228" width="76" height="9" rx="4.5" fill="#e1e6eb"/>
+  </g>
+
+  <!-- right chart card -->
+  <g transform="translate(816 406) rotate(10)" filter="url(#shadow)">
+    <rect x="0" y="0" width="185" height="190" rx="14" fill="#ffffff"/>
+    <rect x="17" y="18" width="106" height="82" rx="9" fill="url(#cardGreen)"/>
+    <rect x="36" y="69" width="21" height="24" rx="4" fill="#5db795"/>
+    <rect x="67" y="51" width="21" height="42" rx="4" fill="#429c78"/>
+    <rect x="98" y="30" width="21" height="63" rx="4" fill="#2e8c69"/>
+    <rect x="135" y="28" width="31" height="9" rx="4.5" fill="#d5dde5"/>
+    <rect x="135" y="48" width="25" height="9" rx="4.5" fill="#d5dde5"/>
+    <rect x="135" y="68" width="27" height="9" rx="4.5" fill="#d5dde5"/>
+    <rect x="18" y="121" width="26" height="26" rx="5" fill="#bce3d1"/>
+    <rect x="56" y="126" width="103" height="9" rx="4.5" fill="#d5dde5"/>
+    <rect x="18" y="155" width="26" height="26" rx="5" fill="#bce3d1"/>
+    <rect x="56" y="160" width="82" height="9" rx="4.5" fill="#d5dde5"/>
+  </g>
+
+  <!-- globe -->
+  <g opacity="0.78">
+    <circle cx="1012" cy="555" r="111" fill="#c7d8eb"/>
+    <path d="M958 479c32-20 71-15 83 6 7 12 2 25-12 33-11 6-18 11-15 22 3 10 20 16 18 30-2 17-25 20-38 30-14 11-16 27-14 43-41-13-70-46-79-84 11-13 22-22 36-27 19-7 34-26 21-53z"
+          fill="#aebfd3"/>
+    <path d="M1037 471c24 3 47 15 64 33-10 3-20 7-25 16-6 12 3 22 13 29 7 5 13 12 12 21-3 22-36 19-51 33-10 9-14 21-15 35-21 13-46 18-71 15 2-15 8-29 20-39 13-11 29-19 35-35 5-14-1-29-10-39-8-9-17-17-18-29-1-17 16-32 46-40z"
+          fill="#aebfd3"/>
+  </g>
+
+  <!-- orbital marker -->
+  <circle cx="1094" cy="557" r="16" fill="#5bb893" stroke="#ffffff" stroke-width="5"/>
+
+  <!-- green accent marks -->
+  <g stroke="#5cb394" stroke-width="10" stroke-linecap="round">
+    <path d="M274 356l-23-18"/>
+    <path d="M286 327l-10-29"/>
+    <path d="M248 380l-31-1"/>
+    <path d="M1011 360l18-28"/>
+    <path d="M1036 376l26-20"/>
+    <path d="M1042 405l30 4"/>
+  </g>
+
+  <!-- foreground landscape -->
+  <path d="M198 701C306 629 378 641 457 688C504 716 544 746 597 734C652 721 695 685 753 691C811 697 861 743 914 725C949 713 973 693 1008 697L1008 733H198Z"
+        fill="#d9ecec"/>
+  <path d="M241 703c-37-34-37-93-16-118 30 5 51 35 50 74 8-44 33-76 63-82 21 33 17 80-8 115 20-31 50-48 78-39 11 26-3 55-29 72H241z"
+        fill="#63b89a"/>
+  <path d="M273 698c-16-44-19-72-14-102M300 698c7-49 17-80 37-104M337 701c15-31 36-51 60-58"
+        fill="none" stroke="#438f75" stroke-width="5" stroke-linecap="round"/>
+  <path d="M755 721c12-34 30-52 50-52 15 0 28 12 34 34 9-25 23-37 41-37 22 0 39 22 43 55z"
+        fill="#66b99b"/>
+
+  <!-- ground -->
+  <ellipse cx="615" cy="735" rx="418" ry="18" fill="#d8ece8"/>
+</svg>
