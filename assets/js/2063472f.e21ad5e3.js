@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([["884"],{7646(e){e.exports=JSON.parse('{"tags":[{"label":"relese-note","permalink":"/blog/tags/relese-note","count":1},{"label":"oke","permalink":"/blog/tags/oke","count":1},{"label":"virtual-nodes","permalink":"/blog/tags/virtual-nodes","count":1}]}')}}]);
