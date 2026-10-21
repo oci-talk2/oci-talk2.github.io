@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([["884"],{7646(e){e.exports=JSON.parse('{"tags":[{"label":"generative-ai","permalink":"/blog/tags/generative-ai","count":1},{"label":"smr","permalink":"/blog/tags/smr","count":1},{"label":"smart-model-router","permalink":"/blog/tags/smart-model-router","count":1}]}')}}]);
