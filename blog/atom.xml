@@ -110,8 +110,9 @@
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="참고-문서">참고 문서<a href="https://oci-talk2.github.io/blog/2026/09/23/generative-ai-regional-router/#%EC%B0%B8%EA%B3%A0-%EB%AC%B8%EC%84%9C" class="hash-link" aria-label="참고 문서에 대한 직접 링크" title="참고 문서에 대한 직접 링크" translate="no">​</a></h2>
 <p>이 글은 2026년 9월 23일 기능 발표를 주제로 하며, 2026년 10월 14일에 공개된 튜토리얼과 작성 시점의 문서를 함께 참고했습니다.</p>
 <ul>
-<li class=""><a href="https://docs.oracle.com/en-us/iaas/releasenotes/generative-ai/regional-router.htm" target="_blank" rel="noopener noreferrer" class="">릴리즈 노트 2026-09-23 - Regional Router 기능 발표</a></li>
+<li class=""><a href="https://docs.oracle.com/en-us/iaas/releasenotes/generative-ai/cpu-only-regions.htm" target="_blank" rel="noopener noreferrer" class="">릴리즈 노트 2026-10-20 - 30개 상용 리전의 OCI Generative AI CPU 전용 액세스</a></li>
 <li class=""><a href="https://docs.oracle.com/en-us/iaas/releasenotes/generative-ai/routing-profile-tutorial.htm" target="_blank" rel="noopener noreferrer" class="">릴리즈 노트 2026-10-14 - 라우팅 튜토리얼 공개</a></li>
+<li class=""><a href="https://docs.oracle.com/en-us/iaas/releasenotes/generative-ai/regional-router.htm" target="_blank" rel="noopener noreferrer" class="">릴리즈 노트 2026-09-23 - Regional Router 기능 발표</a></li>
 <li class=""><a href="https://docs.oracle.com/en-us/iaas/Content/generative-ai/routing-profile-tutorial.htm" target="_blank" rel="noopener noreferrer" class="">Route Model Requests Across OCI Regions</a></li>
 <li class=""><a href="https://docs.oracle.com/en-us/iaas/Content/generative-ai/cpu-only-regions.htm" target="_blank" rel="noopener noreferrer" class="">Generative AI in CPU-Only Regions</a></li>
 <li class=""><a href="https://docs.oracle.com/en-us/iaas/Content/generative-ai/routing-profile.htm" target="_blank" rel="noopener noreferrer" class="">Managing Routing Profiles</a></li>
